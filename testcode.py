@@ -30,12 +30,8 @@ return_command1=read_inst()
 print return_command1
 
 if return_command1=="Yes":
-    print "Yessss"
+    print "It says yes!! this part working."
 
-#write_inst("Start",0)
-#angle=5
-#write_inst("Anticlockwise#"+str(angle)+"000.00$800",angle)
-#angle=360
-#write_inst("Anticlockwise#"+str(angle)+"000.00$800",angle)
+write_inst("Anticlockwise#"+str(angle)+"5000.00$800",angle)
 My_ant_controller.close()
 print "instrument Closed"
